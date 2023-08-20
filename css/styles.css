@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(204, 43%, 93%);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Karla';
+    font-weight: 400;
+    padding: 30px 0;
+}
+main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+#first, #second {
+    max-width: 700px;
+    margin: auto;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+p, h1 {
+    padding: 0;
+    margin: 0;
+}
+p#amt {
+    font-size: 30px;
+    font-weight: 700;
+}
+.small {
+    font-weight: 400;
+    font-size: .9rem;
+    color: hsla(204, 43%, 93%, 70%);
+}
+#first {
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+}
+#second {
+    padding: 0;
+}
+#first p {
+    color: hsl(218, 22%, 67%);
+}
+#left {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: hsl(179, 62%, 43%);
+    gap: 15px;
+}
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+}
+#right {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: hsla(179, 62%, 43%, 80%);
+    gap: 15px;
+}
+#first .info{
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+.head {
+    font-size: 1rem;
+    font-weight: 700;
+}
+    
+.rounded-container {
+      max-width: 700px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 10px grey;
+}
